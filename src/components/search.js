@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Search = ({ onChange }) => (
   <input
@@ -7,6 +7,6 @@ const Search = ({ onChange }) => (
     placeholder="Enter pokemon name..."
     autoFocus
   />
-)
+);
 
-export default Search
+export default Search;
