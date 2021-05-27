@@ -42,12 +42,12 @@
 * Our company recently moved away from using Google's Mobile Analytics SDK (Firebase Analytics) in favor of a more friendly sdk for web (Google Analytics). We should no longer be referencing Firebase anywhere in our website
 
 ### Checklist 
-- [] Content is showing on screens
-- [] Link selection is working correctly
-- [] Link items must stay in the center of screen despite any size changes
-- [] Background color of #ccc has remained consistent for every new screen
-- [] Paragraph sections have a padding of 20px
-- [] Company info is displayed accurately
+- [ ] Content is showing on screens
+- [ ] Link selection is working correctly
+- [ ] Link items must stay in the center of screen despite any size changes
+- [ ] Background color of #ccc has remained consistent for every new screen
+- [ ] Paragraph sections have a padding of 20px
+- [ ] Company info is displayed accurately
 
 
 ### Comments:
