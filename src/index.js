@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Home from "./screens/Home";
 import Privacy from "./screens/Privacy";
+import TermsandConditions from "./screens/TermsandConditions";
 import "./style/main.css";
 import "./style/navbar.css";
 
@@ -39,6 +40,9 @@ const App = () => (
       </Route>
       <Route path="/terms-and-conditions">
         <Privacy />
+      </Route>
+      <Route path="/privacy">
+        <TermsandConditions />
       </Route>
     </Switch>
   </Router>
