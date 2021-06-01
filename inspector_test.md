@@ -1,3 +1,16 @@
+# Description 
+  We are so happy you could join us, we have a website riddled with bugs that needs to go into Production in the next couple of days and we could really use your help! Below you will find details for our webpage and a couple of tickets our client has created to verify before our push to Production. Can you please help us!
+
+# Instructions
+  1. For each ticket displayed below go through each of the checklist items
+  2. Add an X inside all of the checklist items that are complete and accurate
+  3. In the comments section write any notes that could help (PO / Developer) resolve issues notes
+  4. Take your time going through each ticket, we value thoroughness over speed.
+  5. If we have time feel free to resolve issues on webpage
+  5. Have fun!!
+
+
+
 # Website Info
 
 - Webpage Name: Pokedex
@@ -9,8 +22,6 @@
 
 
 ---
-
-
 ## Ticket #1
 
 ### Description
@@ -19,9 +30,9 @@
 
 ### Checklist
 - [ ] Pokemon are listed from left to right in alphabetical order
-- [ ] Pokemon cards are clickable
 - [ ] Text input field filters out pokemon by starting character
 - [ ] Bottom text bar should have a background color of #000 and opacity of 0.5
+- [ ] Pokemon sprite images should occupy all available space
 
 
 
@@ -29,6 +40,10 @@
 
 **Add your comments here**
 
+- 
+- 
+- 
+- 
 
 ---
 
@@ -36,7 +51,7 @@
 
 ### Description
 
-**As a user, I want to be able to navigate to About and (Terms & Conditions) screen to check company policies**
+**As a user, I want to be able to navigate to Privacy and (Terms & Conditions) screen to check company policies**
 
 ### Things to Note:
 * Our company recently moved away from using Google's Mobile Analytics SDK (Firebase Analytics) in favor of a more friendly sdk for web (Google Analytics). We should no longer be referencing Firebase anywhere in our website
@@ -54,5 +69,9 @@
 
 **Add your comments here**
 
+- 
+- 
+- 
+- 
 
 
