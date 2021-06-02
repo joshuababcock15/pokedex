@@ -2,11 +2,10 @@
   We are so happy you could join us, we have a website riddled with bugs that needs to go into Production in the next couple of days and we could really use your help! Below you will find details for our webpage and a couple of tickets our client has created to verify before our push to Production. Can you please help us!
 
 # Instructions
-  1. For each ticket displayed below go through each of the checklist items
-  2. Add an X inside all of the checklist items that are complete and accurate
-  3. In the comments section write any notes that could help (PO / Developer) resolve issues notes
-  4. Take your time going through each ticket, we value thoroughness over speed.
-  5. If we have time feel free to resolve issues on webpage
+  1. For each ticket displayed below go through each of the checklist items and add an X inside all of the items that are complete and accurate
+  2. In the comments section write any notes that could help (PO / Developer) resolve issue noted
+  3. Take your time going through each ticket, we value thoroughness over speed.
+  4. If we have time feel free to resolve issues on webpage
   5. Have fun!!
 
 
