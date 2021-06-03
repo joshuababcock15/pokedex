@@ -31,7 +31,7 @@
 - [ ] Pokemon are listed from left to right in alphabetical order
 - [ ] Text input field filters out pokemon by starting character
 - [ ] Bottom text bar should have a background color of #000 and opacity of 0.5
-- [ ] Pokemon sprite images should occupy all available space
+- [ ] Pokemon cards dimensions should have a width of 180px and height of 180px
 
 
 
@@ -58,7 +58,7 @@
 ### Checklist 
 - [ ] Content is showing on screens
 - [ ] Link selection is working correctly
-- [ ] Link items must stay in the center of screen despite any size changes
+- [ ] Link items in navbar must stay in the center of screen despite any screen size changes
 - [ ] Background color of #ccc has remained consistent for every new screen
 - [ ] Paragraph sections have a padding of 20px
 - [ ] Company info is displayed accurately
