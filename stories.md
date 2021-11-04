@@ -23,3 +23,8 @@
         * Keep this number as internal component state and then display it in the tab title
     * Create a button that will return only Pokemon with names including the subword “chu”
     * Create a button to clear the search input
+
+
+* Create a "store" that can be used throughout the app to house a favorite Pokemon's data.
+    * Create a function to save a single Pokemon as a "favorite" in state.
+    * Include a function to get the favorite Pokemon during app load and save to state so the data can persist.

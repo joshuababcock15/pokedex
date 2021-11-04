@@ -1,45 +1,46 @@
-import React, { Component } from 'react'
+import React, { useState, useEffect} from 'react'
 import Pokemon from '../components/pokemon'
 import Search from '../components/search'
 import { getPokemons } from '../services/pokemonService'
 import { filterPokemons, setPokemons } from '../utils/pokemonUtils'
 
-class Page extends Component {
-  state = {
+const Page = () => {
+  const [pageData, setPageData] = useState({
     isFetched: false,
     error: null,
     pokemons: [],
     displayedPokemons: []
-  }
+  })
 
-  componentDidMount() {
-    this.getData()
-  }
+  useEffect(() => {
+    getData()
+  }, [])
 
-  getData = async () => {
+  const getData = async () => {
     try {
       const { results } = await getPokemons()
-      this.setState({
+      setPageData({
+        ...pageData,
         isFetched: true,
         pokemons: setPokemons(results),
         displayedPokemons: filterPokemons('', results)
       })
     } catch (error) {
-      this.setState({ error: error.message })
+      setPageData({ ...pageData, error: error.message })
     }
   }
 
-  handleSearch = event => {
+  const handleSearch = event => {
     const searchString = event.nativeEvent.target.value
-    this.setState(({ pokemons }) => ({
+    setPageData(({ pokemons }) => ({
+      ...pageData,
       displayedPokemons: filterPokemons(searchString, pokemons)
     }))
   }
+   
+    const { displayedPokemons, isFetched, error } = pageData
 
-  render() {
-    let { displayedPokemons, isFetched, error } = this.state
-
-    let pokemons = displayedPokemons.map(pokemon => {
+    const pokemons = displayedPokemons.map(pokemon => {
       return (
         <li className="pokemons__item" key={pokemon.id}>
           <Pokemon pokemon={pokemon} />
@@ -51,7 +52,7 @@ class Page extends Component {
       <div className="page">
         {error && <div className="page__error">{error}</div>}
         <div className="page__search">
-          <Search onChange={this.handleSearch} />
+          <Search onChange={handleSearch} />
         </div>
         {isFetched ? (
           <ul className="pokemons">{pokemons}</ul>
@@ -60,7 +61,6 @@ class Page extends Component {
         )}
       </div>
     )
-  }
 }
 
 export default Page

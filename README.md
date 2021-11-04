@@ -1,15 +1,17 @@
-# Pokedex
+# Airship | React Pokedex
 
-[![Travis](https://img.shields.io/travis/alik0211/pokedex/master.svg?style=flat-square)](https://travis-ci.com/alik0211/pokedex)
-[![Dependency Status](https://img.shields.io/david/alik0211/pokedex.svg?label=deps&style=flat-square)](https://david-dm.org/alik0211/pokedex)
-[![devDependency Status](https://img.shields.io/david/dev/alik0211/pokedex.svg?label=devDeps&style=flat-square)](https://david-dm.org/alik0211/pokedex?type=dev)
 
-List of pokemons on the basis of React + Redux
+List of pokemons on the basis of React
+
+## Getting Started
+Before the tech interview, be sure to go through and get the project setup and running on your machine. Reach out if you run into any issues!
 
 ## Available Scripts
 
-In the project directory, you can run:
-
+In the project directory, you can run:<br><br>
+### `npm install`
+Installs dependencies<br>
+<br>
 ### `npm start`
 
 Runs the app in the development mode.<br>
@@ -17,7 +19,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
-
+<br>
+<br>
 ### `npm run build`
 
 Builds the app for production to the `build` folder.<br>
@@ -25,7 +28,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
-
-## Related
-
-- [YouTube Meta](https://github.com/alik0211/youtube-meta) - Shows meta information about the video on YouTube
